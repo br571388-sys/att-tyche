@@ -1,7 +1,7 @@
 ---
 title: Tyche Attendance Log
 emoji: 📋
-colorFrom: blue
+colorFrom: blue ok
 colorTo: indigo
 sdk: docker
 app_port: 7860
