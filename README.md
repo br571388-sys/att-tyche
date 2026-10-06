@@ -69,7 +69,7 @@ The app runs at `http://localhost:7860`.
 4. The Space will rebuild and run on port 7860
 
 That's it — data is now stored permanently in MongoDB, no more file-reset issues.
-
+hi
 ## Notes
 - **Passwords**: the 4-digit login PIN is stored as plain text in the database (not hashed), on purpose — this is what lets the `OWNER_ID` admin look up anyone's current PIN from the Change Password page. It's fine for a simple internal 4-digit attendance PIN, but employees shouldn't reuse this PIN anywhere sensitive like banking or email.
 - **Cookies/sessions**: since Hugging Face Spaces often embeds apps in an iframe, session cookies are configured with `sameSite: 'none'` and `secure: true` (required for cross-site iframe cookies to work in modern browsers).
